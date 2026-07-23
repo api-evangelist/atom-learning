@@ -1,8 +1,27 @@
 aid: atom-learning
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atom-learning.png
 name: Atom Learning
-description: 'Atom Learning is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Atom Learning is a UK edtech company providing an online, adaptive exam-preparation
+  and learning platform for children aged 7 to 16. Its consumer product, Atom Home, delivers
+  personalised practice, unlimited mock tests with instant marking, and progress tracking
+  for 11+ grammar and independent-school entrance exams (GL, CEM, CSSE, ISEB), CAT4, Key
+  Stage 2 SATs, and GCSE revision. Its schools product, Atom School, gives teachers curriculum-mapped
+  resources and assessment tools and is used by over 1,000 schools. Founded by educators
+  and assessment specialists, Atom has supported hundreds of thousands of families as a
+  lower-cost alternative to private tutoring. The company was surfaced as a SoftBank Vision
+  Fund portfolio company and added to the API Evangelist network. It publishes a consumer
+  web/app product surface but no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/atom-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Edtech
+- Education
+- Exam Preparation
+- 11 Plus
+- Adaptive Learning
+- Assessment
+- K-12
+- United Kingdom
 apis: []
+common:
+- type: DomainSecurity
+  url: security/atom-learning-domain-security.yml
+- type: Website
+  url: https://www.atomlearning.com/
+- type: About
+  url: https://www.atomlearning.com/about
+- type: Blog
+  url: https://www.atomlearning.com/blog
+- type: Pricing
+  url: https://www.atomlearning.com/pricing
+- type: SignUp
+  url: https://www.atomlearning.com/register-course
+- type: Login
+  url: https://app.atomlearning.com/public/
+- type: Support
+  url: https://www.atomlearning.com/help-centre
+- type: HelpCenter
+  url: https://www.atomlearning.com/help-centre
+- type: TermsOfService
+  url: https://www.atomlearning.com/terms
+- type: PrivacyPolicy
+  url: https://www.atomlearning.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
